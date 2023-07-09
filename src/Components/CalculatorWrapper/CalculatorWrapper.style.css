@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.calc-wrapper {
+  border: 4px solid #501c63;
+  max-width: 216px;
+  min-width: 216px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #faa12e;
+  box-shadow: -16px 0px 4px #fbb760 inset, 0px 16px 0px #dd552c,
+    -2px 16px 0px #dd552c, 2px 16px 0px #dd552c,
+    0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+.w-50 {
+  width: 50%;
+}
+
+pre {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 16px;
+}

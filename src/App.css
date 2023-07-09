@@ -1,0 +1,16 @@
+/* @font-face {
+  font-family: 'Digital Dismay';
+  src: url('./fonts/Digital Dismay.otf');
+} */
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #5f2a77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
